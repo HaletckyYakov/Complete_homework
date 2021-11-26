@@ -1,7 +1,9 @@
 #pragma once
 
 void Print(int arr[], const unsigned int n);							//Выводит массив
+void Print(double arr[], const unsigned int n);							//Выводит массив
 void Print(int arr[m][n], const unsigned int m, const unsigned int n);
+void Print(double arr[m][n], const unsigned int m, const unsigned int n);
 
 void ReversePrint(int arr[], const unsigned int n);						//Выводит массив в обратном направлении;
 void ReversePrint(char arr[], const unsigned int n);

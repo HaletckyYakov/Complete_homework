@@ -8,7 +8,27 @@ void Print(int arr[], const unsigned int n)
 	}
 	cout << endl;
 }
+void Print(double arr[], const unsigned int n)
+{
+	for (int i = 0; i < n; i++)
+	{
+		cout << arr[i] << "\t";
+	}
+	cout << endl;
+}
+
 void Print(int arr[m][n], const unsigned int m, const unsigned int n)		//двумерный массив
+{
+	for (int i = 0; i < m; i++)
+	{
+		for (int j = 0; j < n; j++)
+		{
+			cout << arr[i][j] << "\t";
+		}
+		cout << endl;
+	}
+}
+void Print(double arr[m][n], const unsigned int m, const unsigned int n)		//двумерный массив
 {
 	for (int i = 0; i < m; i++)
 	{

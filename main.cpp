@@ -24,12 +24,12 @@
 int main()
 {
 	setlocale(LC_ALL, "rus");
-	
+	int minRand=50, maxRand=100;
 	//const int n = 10; //SIZE //n-1 или SIZE -1 - номер последнего элемента массива
-	int arr[n];
+	int arr[n] = { 1,2,3,4,5,6,7,8,9,10 };
 	cout << "Одномерный массив: " << endl;
 	cout << "Заполненный массив: " << endl;
-	FillRand(arr, n);
+	FillRand(arr, n, minRand, maxRand);
 	Print(arr, n);
 	int sum = Sum(arr, n);
 	cout << "Сумма элементов массива: " << sum << endl;	
@@ -170,7 +170,7 @@ int main()
 	shiftRight(shift, arr, n);
 #endif OPERATION OF FUNCTIONS
 	
-	int arrM [m][n] = { {0 }};
+	/*int arrM[m][n] = {{0}};
 	cout << "Двухмерный массив: " << endl;
 	cout << "Заполненный массив: " << endl;
 	FillRand(arrM, m, n);
@@ -188,7 +188,7 @@ int main()
 	cout << "Сортировка по возрастанию: " << endl;
 	Print(arrM, m, n);
 	
-	cout << endl;
+	cout << endl;*/
 	/*FillRand(charArr1,m,n);
 	Print(charArr1, m, n);
 	cout << endl;
